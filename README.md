@@ -1,6 +1,6 @@
 # BFTDetector
 ## Demo Videos
-+ Bookmate (Hybrid Paywall)
++ Bookmate (Hard Paywall)
   + [Testing demo](https://drive.google.com/file/d/1GOJGvRgzhzTidFZDj9ve55gOAEu0HuJx/view?usp=sharing)
   + [Discovered vulnerability](https://drive.google.com/file/d/1Fy-717-xeM4n2-mGEvbOpMtIg6AaLavw/view?usp=sharing)
 + LA Times (Anti-Adblocker)
@@ -124,6 +124,7 @@ if __name__ == '__main__':
 + free_pages: list
   + URLs of test pages for blocking run
 ### BFTDetectorLauncherHybridPaywall(option, free_pages, sub_pages)
++ This is for testing hard paywall with free pages
 + option:BFTDetectorOption
 + free_pages: list
   + URLs of free pages for passing run 
