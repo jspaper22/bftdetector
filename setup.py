@@ -29,7 +29,7 @@ setup(
         'psutil==5.9.0',
         'mmh3==3.0.0',
         'pyhash==0.9.3',
-        'imbalanced-learn==0.9.0',
+        'imbalanced-learn==0.9.1',
         'Pillow==9.1.0',
     ],
 )
