@@ -6,15 +6,15 @@ if __name__ == '__main__':
     option.test_name = 'time'
 
     paywall_pages = [
-        'https://time.com/6173104/lula-da-silva-transcricao/',
-        'https://time.com/5950888/suez-canal-boat-freed-explained/',
-        'https://time.com/5950829/vaccines-covid-19-infection-real-world-study/'
+        'https://time.com/6249393/the-modi-question-documentary-bbc-india-controversy/',
+        'https://time.com/6249863/presidents-classified-documents-misplaced-history/',
+        'https://time.com/6249941/ukraine-corruption-resignation-zelensky-russia/'
     ]
 
     free_pages = [
-        'https://time.com/6167919/new-orleans-history-french-women/',
-        'https://time.com/5947893/what-constitutes-a-mass-shooting/',
-        'https://time.com/6170100/starbucks-sued-labor-baord/'
+        'https://time.com/6248644/hakeem-jeffries-leadership-kappa-alpha-psi-fraternity/',
+        'https://time.com/6249068/martin-luther-king-sculpture-hank-willis-thomas-interview/',
+        'https://time.com/6249168/lunar-new-year-shooting-monterey-park/'
     ]
 
     bftd = BFTDetectorLauncherSoftPaywall(option=option, paywall_pages=paywall_pages, free_pages=free_pages)

@@ -1,12 +1,3 @@
-# BFTDetector
-## Demo Videos
-+ Bookmate (Hybrid Paywall)
-  + [Testing demo](https://drive.google.com/file/d/1GOJGvRgzhzTidFZDj9ve55gOAEu0HuJx/view?usp=sharing)
-  + [Discovered vulnerability](https://drive.google.com/file/d/1Fy-717-xeM4n2-mGEvbOpMtIg6AaLavw/view?usp=sharing)
-+ LA Times (Anti-Adblocker)
-  + [Testing demo](https://drive.google.com/file/d/1tiQoxNRCIvkAhqKKNZBJL3r65wR-9GMv/view?usp=sharing)
-  + [Discovered vulnerability](https://drive.google.com/file/d/1W7JyfLQcGiPqBt6Z2wyywzqnPM_StfJG/view?usp=sharing)
-
 # Installation
 BFTDetector is implemented and tested on Ubuntu 20.04 LTS. Any Ubuntu distribution above 16.04 would be fine.
 It is highly recommended to use more than 16GB RAM and faster CPU.
@@ -29,14 +20,14 @@ It is highly recommended to use more than 16GB RAM and faster CPU.
     ```
 
 + Download repository
-  ```shell
-  git clone https://github.com/jspaper22/bftdetector.git
-  ```
+	```shell
+	git clone https://github.com/jspaper22/bftdetector.git
+	```
 + Install via pip
-  ```shell
-  cd bftdetector
-  pip install .
-  ```
+	```shell
+	cd bftdetector
+	pip install .
+	```
  
 # Usage
 
