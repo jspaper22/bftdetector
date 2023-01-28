@@ -30,7 +30,7 @@ It is highly recommended to use more than 16GB RAM and faster CPU.
 	```
  
 # Usage
-
+We provide 4 classes for each promotional method; `BFTDetectorLauncherAntiAdblocker` for anti-adblocker, `BFTDetectorLauncherSoftPaywall` for soft paywall, and `BFTDetectorLauncherHardPaywall/BFTDetectorLauncherHybridPaywall` for hard paywall. Each class gets `BFTDetectorOption` class as an argument to specify detecting options, such as working directory or timeout. In order to start the test, `perform_analysis` function is used to perform dynamic execution data collection, differential analysis, and test input generation. After that, calling `start_test` function performs the tampering test for each generated test input, and test result verification
 ## Examples
 Examples can be found in ./examples folder.
 + Anti-adblocker (LA Times)
@@ -79,7 +79,7 @@ if __name__ == '__main__':
     bftd.perform_analysis()
     bftd.start_test()
 ```
-+ Hard Paywall
++ Hard Paywall (Daily News)
 ```shell
   cd examples
   python3 dailynews.py
@@ -200,3 +200,6 @@ This is an example of the testing result
     - Forced execution to branch #0 at (140:772)
     - Forced execution to branch #0 at (140:749)
 ```
+You can read this as follows:
+- The test result of Test ID 8 is Failed 
+- In this test, the tool alters 3 execution flows of the JS code (chartbeat_video.js): 1) Forced execution to index #1 is performed at the branch (row #140, col #1044), 2) Forced execution to index #0 is performed at the branch (row #140, col #772), 3) Forced execution to index #0 is performed at the branch (row #140, col #749)
