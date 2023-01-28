@@ -1,5 +1,5 @@
 # BFTDetector
-BFTDetector is a tool that automatically analyzes and detects the business flow tampering flaws for digital content service. For more details, please read our paper which will be published at [ICSE 2023](https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/194/BFTDetector-Automatic-Detection-of-Business-Flow-Tampering-for-Digital-Content-Servi).
+BFTDetector is a tool that automatically analyzes and detects the business flow tampering flaws for digital content service. For more details, please read our paper which will be published at [ICSE 2023](https://conf.researchr.org/details/icse-2023/icse-2023-technical-track/194/BFTDetector-Automatic-Detection-of-Business-Flow-Tampering-for-Digital-Content-Servi). BFTDetector is publically available in [here](https://github.com/jspaper22/bftdetector).
 
 ## Demo Videos
 + Bookmate (Hybrid Paywall)
